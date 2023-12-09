@@ -1,0 +1,658 @@
+/******************
+global css start
+******************/
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&family=Josefin+Sans:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0px;
+
+    box-sizing: border-box;
+    padding: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    
+    background: #F9F8F2;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+img{
+    max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6{
+ 
+    
+}
+a, a:hover{
+    text-decoration: none !important;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style: none;
+}
+
+.title p{}
+/******************
+global css end
+******************/
+/* 
+font-family: 'Domine', serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+.hero-section{
+    background: url(../photo/banner-hero1.png) center center no-repeat;
+    background-size: cover;
+    padding: 200px 0px;
+    
+
+}
+.hero-section .title{
+    text-align: center;
+}
+
+.hero-section .title h1{
+    color:  #B36F36;
+    font-family: 'Domine', serif;
+    font-size: 68px;
+    font-weight: 500;
+    line-height: 77px; 
+    text-transform: capitalize;
+}
+
+.hero-section .title p{
+    color: #4B2E25;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    padding: 70px 0 0px;
+    max-width: 1010px;
+    margin-left:auto ;
+    margin-right:auto ;
+}
+.hero-section .title p span{
+    font-weight: 700;
+}
+
+/* Despre Faunus Plant section css start */
+.despre-plant-section{
+    background: #EDDCC2;
+    padding: 100px 0px;
+}
+.despre-plant-section .inner-box{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.despre-plant-section  h2{
+    color:  #4B2E25;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+.despre-plant-section .content{
+    flex-basis: 55%;
+}
+.despre-plant-section .content p{
+    color: #4B2E25;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.despre-plant-section .photo{
+    flex-basis: 45%;
+}
+.despre-plant-section .photo img{
+    width: 100%;
+    padding-left: 60px;
+}
+/* Despre Faunus Plant section css end */
+/* Calitati Faunus section start css */
+.faunus-section{
+    background: #F9F8F2;
+    padding: 100px 0px;
+}
+.faunus-section .top{
+    display: flex;
+}
+.faunus-section .top .icon-box{
+    border: 1px solid #31313129;
+    text-align: center;
+    flex-basis: 30.5%;
+    margin-right: 2.5%;
+
+
+
+}
+.faunus-section .top .icon-box img{
+    width: auto;
+    height: 110px;
+    padding-top: 30px;
+
+}
+.faunus-section .top .icon-box p{
+    color: #B36F36;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    padding: 12px 12px 4px;
+}
+.faunus-section .bottom{
+    display: flex;
+    padding-top: 30px;
+
+}
+.faunus-section .bottom .icon-box{
+    border: 1px solid #31313129;
+    text-align: center;
+    flex-basis: 22.5%;
+    margin-right: 2.5%;
+}
+.faunus-section .bottom .icon-box img{
+    width: 110px;
+    height: 110px;
+    padding-top: 30px;
+}
+.faunus-section .bottom .icon-box .custom{
+    height: 70px;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+.faunus-section .bottom .icon-box p{
+    color: #B36F36;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    padding: 12px 12px 4px;
+}
+/* Calitati Faunus section start end */
+/* In Parteneriat section css start */
+.parteneriat-section{
+    background: #757F5F;
+    padding: 100px 0px;
+    margin-bottom: 100px;
+}
+.parteneriat-section .parteneriat-inner{
+    display: flex;
+    align-items: center;
+}
+.parteneriat-section .parteneriat-inner .logo{
+    flex-basis: 40%;
+    padding-right: 8%;
+}
+.parteneriat-section .parteneriat-inner .logo img{
+    width: 100%;
+}
+
+.parteneriat-section .parteneriat-inner .content{
+    flex-basis: 60%;
+}
+.parteneriat-section .parteneriat-inner .content h2{
+    color: #FFF;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; 
+    text-transform: capitalize;
+}
+.parteneriat-section .parteneriat-inner .content h2 span{
+    font-weight: 700;
+}
+.parteneriat-section .parteneriat-inner .content p{
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+.parteneriat-section .parteneriat-inner .content p span{
+    font-weight: 700;
+
+}
+/* In Parteneriat section css end */
+/* text section css start  */
+.text-section{ 
+    padding: 0 0px; 
+    background-size: contain;
+}
+.grid .text-inner{
+        display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+}
+.text-section .text-inner{
+    display: flex;
+}
+.grid .text-inner .content {
+    max-width: 633px;
+    margin: auto;
+}
+.text-section .text-inner .content h2{
+    color: #313131;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px; 
+    text-transform: capitalize;
+}
+.text-section .text-inner .content p{
+    color: var(--Negru, #313131);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    padding-top: 40px;
+}
+.text-section .text-inner .content p span{
+    font-weight: 700;
+}
+.text-section1 .text-inner .img{
+    flex-basis: 45;
+}
+/* text section css end  */
+/* text section1 css start  */
+.text-section1{ 
+    padding: 0 0px; 
+    background-size: contain;
+}
+.text-section1 .text-inner{
+    display: flex;
+}
+.text-section1 .text-inner .img{
+    flex-basis: 45%;
+}
+.text-section1 .text-inner .content{
+    flex-basis: 55%;
+}
+.text-section1 .text-inner .content h2{
+    color: #313131;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px; 
+    text-transform: capitalize;
+}
+.text-section1 .text-inner .content p{
+    color: var(--Negru, #313131);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    padding-top: 40px;
+}
+.text-section1 .text-inner .content p span{
+    font-weight: 700;
+}
+/* text section css end  */
+/* text section 2 css start  */
+.text-section2{ 
+    padding: 0 0px; 
+    background-size: contain;
+}
+.text-section2 .text-inner{
+    display: flex;
+}
+.text-section2 .text-inner .content{
+    flex-basis: 55%;
+}
+.text-section2 .text-inner .content h2{
+    color: #313131;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px; 
+    text-transform: capitalize;
+    padding-right: 15%;
+}
+.text-section2 .text-inner .content p{
+    color: var(--Negru, #313131);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    padding-top: 40px;
+}
+.text-section2 .text-inner .content p span{
+    font-weight: 700;
+}
+.text-section2 .text-inner .img{
+    flex-basis: 45;
+}
+/* text section 2 css end  */
+/* Calitati-Faunus-section css start */
+.Calitati-Faunus-section{
+    background: #EDDCC2;
+    padding: 100px 0px 350px;
+    margin-top: 100px;
+}
+.Calitati-Faunus-section .title{}
+.Calitati-Faunus-section .title h2{
+    color: var(--Maro, #4B2E25);
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; 
+    text-transform: capitalize;
+    padding: 0px 220px 0px;
+}
+.Calitati-Faunus-section .title p{
+    color: var(--Maro, #4B2E25);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 60px 110px 0px;
+}
+
+/* Calitati-Faunus-section css end */
+
+
+
+/* Calitati-Faunus-section css start */
+.Suntem-Faunus-section{
+    background: #F9F8F2;
+    padding: 100px 0px; 
+}
+.Suntem-Faunus-section .title{}
+.Suntem-Faunus-section .title h2{
+    color: var(--Maro, #4B2E25);
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; 
+    text-transform: capitalize;
+    padding: 0px 220px 0px;
+}
+.Suntem-Faunus-section .title p{
+    color: var(--Maro, #4B2E25);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 60px 110px 0px;
+}
+
+
+
+
+/* Craciunul-pentru-Toti css start */
+.Craciunul-pentru-Toti{
+    margin-top: -230px;
+}
+.Craciunul-pentru-Toti .container{
+    padding: 0 0px;
+    position: relative;
+}
+.Craciunul-pentru-Toti .title{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Craciunul-pentru-Toti .title h2{
+    color: var(--Maro, #FFF);
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; 
+    text-transform: capitalize;
+    padding: 0px 220px 0px;
+}
+.Craciunul-pentru-Toti .title p{
+    color: var(--Maro, #FFF);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 60px 110px 0px;
+}
+.btn{
+    margin-top: 35px;
+    color: var(--Verde, #49682F);
+text-align: center;
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border-radius: 50px;
+background: var(--Alb, #FFF);
+padding: 20px 40px;
+}
+
+
+
+@media(min-width:768px){
+    .forPhone{
+        display: none;
+    }
+}
+
+@media(max-width: 767px){
+    .forDesktop{
+        display: none;
+    }
+    .hero-section {
+    background: url(../photo/banner-hero_1.png) center center no-repeat;
+    background-size: cover;
+    padding: 190px 0px 0;
+}
+.hero-section .title h1 {
+     
+    font-size: 28px; 
+    font-weight: 700;
+    line-height: 36px; 
+}
+.hero-section .title p {
+     
+    font-size: 16px; 
+    line-height: 24px; 
+    padding: 30px 0px 30px;
+    max-width: 330px;
+}
+.despre-plant-section { 
+    padding: 35px 18px;
+}
+/*.despre-plant-section  h2 {
+     
+    text-align: center; 
+    font-size: 24px; 
+    line-height: 28px; 
+}*/
+.content p {
+     
+    text-align: center !important; 
+    font-size: 16px !important; 
+    line-height: 30px !important;
+}
+.despre-plant-section .inner-box {
+    
+    padding-top: 35px;
+    flex-direction: column;
+}
+.despre-plant-section .photo img {
+    width: 100%;
+    padding-left: 0;
+    margin: 30px 0;
+}
+.faunus-section .top, 
+.faunus-section .bottom { 
+    flex-direction: column;
+    gap: 15px;
+}
+.faunus-section{
+    padding: 35px 18px;
+}
+.faunus-section  .icon-box {
+    
+    flex-basis: 100%;
+    margin-right: 0;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    gap: 20px;
+}
+.faunus-section  .top .icon-box img, 
+.faunus-section .bottom .icon-box img {
+    width: 124px;
+    height: auto;
+    padding-top: 0;
+}
+.faunus-section .top .icon-box p,
+.faunus-section .bottom .icon-box p {
+     text-align: left; 
+    padding: 12px 12px ; 
+    font-size: 18px; 
+    line-height: 22px;
+}
+
+.parteneriat-section .parteneriat-inner {
+    
+    align-items: center;
+    flex-direction: column;
+}
+.parteneriat-section { 
+    padding: 35px 18px;
+    margin-bottom: 30px;
+}
+.parteneriat-section .parteneriat-inner .logo img {
+    width: 335px;
+    margin: 30px 0;
+}
+.content h2 , .despre-plant-section h2{
+      padding-right: 0 !important;
+text-align: center !important; 
+font-size: 24px !important; 
+font-weight: 400 !important;
+line-height: 28px !important;  
+}
+
+.grid .text-inner { 
+    display: flex !important;
+    flex-direction: column-reverse;
+}
+.grid .text-inner .img{
+}
+.text-section .text-inner,
+.text-section2 .text-inner  {
+    padding-left: 50px;
+}
+.text-section .grid .text-inner .content,
+.text-section2 .grid .text-inner .content {
+    text-align: right;
+    padding: 30px 18px 30px 0;
+}
+
+.text-section1 .grid .text-inner .content {
+    text-align: left;
+    padding: 30px 0 30px 18px;
+}
+.text-section .grid .text-inner .content h2,
+.text-section .grid .text-inner .content p,
+.text-section2 .grid .text-inner .content h2,
+.text-section2 .grid .text-inner .content p{
+    text-align: right !important;  
+}
+
+.text-section1 .grid .text-inner .content h2,
+.text-section1 .grid .text-inner .content p{
+    text-align: left !important;
+}
+
+.text-section .grid .text-inner .content p,
+.text-section1 .grid .text-inner .content p,
+.text-section2 .grid .text-inner .content p{ 
+    padding-top: 27px;
+}
+
+.text-section1 .text-inner { 
+    flex-direction: column !important;
+    padding-right: 50px;
+}
+.Calitati-Faunus-section { 
+    padding: 30px 18px 350px;
+    margin-top: 30px;
+}
+
+.Calitati-Faunus-section .title h2 {
+     
+    padding: 0px 0px 0px;
+    text-align: center;
+    font-size: 24px; 
+    font-weight: 400;
+    line-height: 28px; 
+}
+.Calitati-Faunus-section .title p {
+     
+    padding: 30px 0px 0px; 
+    text-align: center; 
+    font-size: 16px; 
+    font-weight: 400;
+    line-height: 30px;
+}
+.Craciunul-pentru-Toti .title h2,
+.Suntem-Faunus-section .title h2 {
+     
+    padding: 0px 0 0px; 
+    text-align: center; 
+    font-size: 24px; 
+    line-height: 28px; 
+}
+.Craciunul-pentru-Toti .title p,
+.Suntem-Faunus-section .title p {
+     
+    padding: 27px 0px 0px; 
+    text-align: center; 
+    font-size: 16px; 
+    line-height: 30px;
+}
+.Craciunul-pentru-Toti .container img{
+    width: 100%;
+}
+.Craciunul-pentru-Toti {
+    margin-top: -100px;
+    padding: 0 24px;
+}
+.Craciunul-pentru-Toti .title { 
+    padding: 25px;
+}
+.Suntem-Faunus-section { 
+    padding: 40px 18px;
+}
+.btn { 
+    font-size: 18px; 
+    padding: 13px 30px;
+}
+}

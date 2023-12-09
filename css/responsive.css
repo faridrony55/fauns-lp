@@ -1,0 +1,202 @@
+@media(min-width:768px){
+	.forPhone{
+		display: none;
+	}
+}
+
+@media(max-width: 767px){
+	.forDesktop{
+		display: none;
+	}
+	.hero-section {
+    background: url(../photo/banner-hero_1.png) center center no-repeat;
+    background-size: cover;
+    padding: 190px 0px 0;
+}
+.hero-section .title h1 {
+     
+    font-size: 28px; 
+    font-weight: 700;
+    line-height: 36px; 
+}
+.hero-section .title p {
+     
+    font-size: 16px; 
+    line-height: 24px; 
+    padding: 30px 0px 30px;
+    max-width: 330px;
+}
+.despre-plant-section { 
+    padding: 35px 18px;
+}
+/*.despre-plant-section  h2 {
+     
+    text-align: center; 
+    font-size: 24px; 
+    line-height: 28px; 
+}*/
+.content p {
+     
+    text-align: center !important; 
+    font-size: 16px !important; 
+    line-height: 30px !important;
+}
+.despre-plant-section .inner-box {
+    
+    padding-top: 35px;
+    flex-direction: column;
+}
+.despre-plant-section .photo img {
+    width: 100%;
+    padding-left: 0;
+    margin: 30px 0;
+}
+.faunus-section .top, 
+.faunus-section .bottom { 
+    flex-direction: column;
+    gap: 15px;
+}
+.faunus-section{
+	padding: 35px 18px;
+}
+.faunus-section  .icon-box {
+    
+    flex-basis: 100%;
+    margin-right: 0;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    gap: 20px;
+}
+.faunus-section  .top .icon-box img, 
+.faunus-section .bottom .icon-box img {
+    width: 124px;
+    height: auto;
+    padding-top: 0;
+}
+.faunus-section .top .icon-box p,
+.faunus-section .bottom .icon-box p {
+     text-align: left; 
+    padding: 12px 12px ; 
+    font-size: 18px; 
+    line-height: 22px;
+}
+
+.parteneriat-section .parteneriat-inner {
+    
+    align-items: center;
+    flex-direction: column;
+}
+.parteneriat-section { 
+    padding: 35px 18px;
+    margin-bottom: 30px;
+}
+.parteneriat-section .parteneriat-inner .logo img {
+    width: 335px;
+    margin: 30px 0;
+}
+.content h2 {
+      padding-right: 0 !important;
+text-align: center !important; 
+font-size: 24px !important; 
+font-weight: 400 !important;
+line-height: 28px !important;  
+}
+
+.grid .text-inner { 
+    display: flex !important;
+    flex-direction: column-reverse;
+}
+.grid .text-inner .img{
+}
+.text-section .text-inner,
+.text-section2 .text-inner  {
+    padding-left: 50px;
+}
+.text-section .grid .text-inner .content,
+.text-section2 .grid .text-inner .content {
+    text-align: right;
+    padding: 30px 18px 30px 0;
+}
+
+.text-section1 .grid .text-inner .content {
+    text-align: left;
+    padding: 30px 0 30px 18px;
+}
+.text-section .grid .text-inner .content h2,
+.text-section .grid .text-inner .content p,
+.text-section2 .grid .text-inner .content h2,
+.text-section2 .grid .text-inner .content p{
+    text-align: right !important;  
+}
+
+.text-section1 .grid .text-inner .content h2,
+.text-section1 .grid .text-inner .content p{
+	text-align: left !important;
+}
+
+.text-section .grid .text-inner .content p,
+.text-section1 .grid .text-inner .content p,
+.text-section2 .grid .text-inner .content p{ 
+    padding-top: 27px;
+}
+
+.text-section1 .text-inner { 
+    flex-direction: column !important;
+    padding-right: 50px;
+}
+.Calitati-Faunus-section { 
+    padding: 30px 18px 350px;
+    margin-top: 30px;
+}
+
+.Calitati-Faunus-section .title h2 {
+     
+    padding: 0px 0px 0px;
+    text-align: center;
+    font-size: 24px; 
+    font-weight: 400;
+    line-height: 28px; 
+}
+.Calitati-Faunus-section .title p {
+     
+    padding: 30px 0px 0px; 
+    text-align: center; 
+    font-size: 16px; 
+    font-weight: 400;
+    line-height: 30px;
+}
+.Craciunul-pentru-Toti .title h2,
+.Suntem-Faunus-section .title h2 {
+     
+    padding: 0px 0 0px; 
+    text-align: center; 
+    font-size: 24px; 
+    line-height: 28px; 
+}
+.Craciunul-pentru-Toti .title p,
+.Suntem-Faunus-section .title p {
+     
+    padding: 27px 0px 0px; 
+    text-align: center; 
+    font-size: 16px; 
+    line-height: 30px;
+}
+.Craciunul-pentru-Toti .container img{
+	width: 100%;
+}
+.Craciunul-pentru-Toti {
+    margin-top: -100px;
+    padding: 0 24px;
+}
+.Craciunul-pentru-Toti .title { 
+    padding: 25px;
+}
+.Suntem-Faunus-section { 
+    padding: 40px 18px;
+}
+.btn { 
+    font-size: 18px; 
+    padding: 13px 30px;
+}
+}
